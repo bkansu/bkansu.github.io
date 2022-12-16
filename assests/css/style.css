@@ -7,6 +7,7 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none; border: none;
+  text-transform:capitalize;
   transition: all .2s linear;
 }
 html{
@@ -373,6 +374,7 @@ header .navbar ul li a:hover{
   font-size: 1.4rem;
   color: #020133;
   font-weight: 600;
+  text-transform: none;
   margin-top: 1rem;
 }
 .about .row .content p{
