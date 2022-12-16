@@ -41,11 +41,11 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Buse Yalçın";
+        document.title = "Batuhan KANSU";
         $("#favicon").attr("href","assests/images/hero.png");
     }
     else {
-        document.title = "Sayfama Hoşgeldiniz";
+        document.title = "Welcome to my page";
         $("#favicon").attr("href","assests/images/hero.png");
     }
 });
